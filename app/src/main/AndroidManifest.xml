@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidERestaurant">
         <activity
+            android:name=".DessertsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainDishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DishActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity

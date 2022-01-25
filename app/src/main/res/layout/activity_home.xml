@@ -22,7 +22,7 @@
         app:srcCompat="@drawable/mousstache" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btnStarter"
         android:layout_width="450dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="372dp"
@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btnMainDish"
         android:layout_width="450dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="228dp"
@@ -47,7 +47,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btnDessert"
         android:layout_width="450dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="80dp"
