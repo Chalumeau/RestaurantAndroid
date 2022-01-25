@@ -5,37 +5,38 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.util.Log
-
+import fr.isen.dussot.androiderestaurant.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityHomeBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
 
-        val btnStarter = findViewById<Button>(R.id.btnStarter)
-        val btnMainDish = findViewById<Button>(R.id.btnMainDish)
-        val btnDessert = findViewById<Button>(R.id.btnDessert)
 
-        btnStarter.setOnClickListener {
-            //val toast = Toast.makeText(this@HomeActivity, "Vous avez selectionné l'entrée", Toast.LENGTH_SHORT),show()
+        binding = ActivityHomeBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
+
+
+        binding.starters.setOnClickListener {
             changeActivity(getString(R.string.home_starters))
         }
 
-        btnMainDish.setOnClickListener {
-            //val toast = Toast.makeText(this@HomeActivity, "Vous avez selectionné le plat", Toast.LENGTH_SHORT),show()
-            changeActivity(getString(R.string.home_main_dish))
+        binding.dish.setOnClickListener {
+            changeActivity(getString(R.string.home_dish))
         }
 
-        btnStarter.setOnClickListener {
-            //val toast = Toast.makeText(this@HomeActivity, "Vous avez selectionné l'entrée", Toast.LENGTH_SHORT),show()
-            changeActivity(getString(R.string.home_desserts))
+        binding.desserts.setOnClickListener {
+            changeActivity(getString(R.string.home_dessert))
         }
     }
 
-        private fun changeActivity(category: String) {
-            val changePage = Intent(this@HomeActivity, MainDishActivity::class.java)
-            changePage.putExtra("category_type", category)
-            Log.i("INFO", "End of HomeActivity")
-            startActivity(changePage)
-        }
+    private fun changeActivity(category: String) {
+        val intent = Intent(this,MainDishActivity::class.java)
+        intent.putExtra("category_type", category)
+        startActivity(intent)
     }
+}
+

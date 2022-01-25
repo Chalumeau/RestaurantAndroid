@@ -21,43 +21,48 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/mousstache" />
 
-    <Button
-        android:id="@+id/btnStarter"
-        android:layout_width="450dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="372dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="Entrées"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btnMainDish"
-        android:layout_width="450dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="228dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="Plats"
-        android:textColor="#000000"
+    <TextView
+        android:id="@+id/starters"
+        android:layout_width="401dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="280dp"
+        android:text="@string/home_starters"
+        android:textAlignment="center"
+        android:textColor="#514D4D"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/btnDessert"
-        android:layout_width="450dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="Desserts"
-        android:textColor="#000000"
+    <TextView
+        android:id="@+id/dish"
+        android:layout_width="417dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="160dp"
+        android:text="@string/home_dish"
+        android:textAlignment="center"
+        android:textColor="#514D4D"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:strokeColor="#EA0000" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/desserts"
+        android:layout_width="441dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="76dp"
+        android:text="@string/home_dessert"
+        android:textAlignment="center"
+        android:textColor="#514D4D"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

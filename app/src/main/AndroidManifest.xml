@@ -10,22 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidERestaurant">
         <activity
-            android:name=".DessertsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".StartersActivity"
+            android:name=".MainCourseActivity"
             android:exported="false" />
         <activity
             android:name=".MainDishActivity"
             android:exported="false" />
         <activity
-            android:name=".DishActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
