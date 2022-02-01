@@ -1,6 +1,5 @@
 package fr.isen.dussot.androiderestaurant
 
-import android.provider.MediaStore
 import java.io.Serializable
 
 data class DishResult(val data: List<CategoryModel>): Serializable

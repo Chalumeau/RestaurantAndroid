@@ -55,6 +55,7 @@ class Detail : AppCompatActivity() {
         buttonplus.setOnClickListener(){
             quantity++
             val totalprice = (itemDish.prices[0].price.toFloat())*quantity
+            pricedisplay.text = "Total  " + "$totalprice" + "€"
             quantitydisplay.text = "$quantity"
         }
 
