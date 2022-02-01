@@ -4,15 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_desserts.xml" value="0.1" />
+        <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_detail.xml" value="0.25729166666666664" />
         <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_dish.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_home.xml" value="0.21" />
         <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_main2.xml" value="0.23385416666666667" />
         <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_main_course.xml" value="0.22" />
         <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_main_dish.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_selected_category.xml" value="0.22" />
         <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_starter.xml" value="0.14270833333333333" />
         <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_starters.xml" value="0.22" />
+        <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/card_view_design.xml" value="0.22" />
         <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/cell_maincourse.xml" value="0.22" />
+        <entry key="..\:/Users/grego/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/image_ressource.xml" value="0.1" />
       </map>
     </option>
   </component>
